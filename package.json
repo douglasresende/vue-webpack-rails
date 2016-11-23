@@ -1,0 +1,28 @@
+{
+  "name": "your-app-name",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "assets-webpack-plugin": "^3.2.0",
+    "clean-webpack-plugin": "^0.1.6",
+    "css-loader": "^0.23.1",
+    "exports-loader": "^0.6.2",
+    "expose-loader": "^0.7.1",
+    "extract-text-webpack-plugin": "^1.0.0",
+    "file-loader": "^0.8.5",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
+    "webpack-hot-middleware": "^2.6.0",
+    "webpack-merge": "^0.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "node_modules/.bin/webpack -v --config frontend/main.config.js --display-chunks --debug",
+    "build:production": "NODE_ENV=production node_modules/.bin/webpack -v --config frontend/main.config.js --display-chunks",
+    "dev:server": "node frontend/dev-server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

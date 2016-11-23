@@ -1,0 +1,6 @@
+Base webpacked setup completed. Now you can:
+1. Include 'Webpacked::ControllerHelper' into 'ApplicationController'
+and set up entry points for your controllers via 'webpacked_entry' class method
+2. Add the webpacked helpers into your layout instead of regular Rails helpers
+3. Run 'npm run dev:server' to start webpack-dev-server or 'foreman start' to start it alongside rails server
+See https://github.com/Darkside73/webpacked for more info.
