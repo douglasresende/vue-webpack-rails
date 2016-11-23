@@ -19,3 +19,9 @@
 # Added by webpacked
 /node_modules
 /public/assets/webpacked
+
+# Added by vue-cli
+.DS_Store
+node_modules/
+dist/
+npm-debug.log
