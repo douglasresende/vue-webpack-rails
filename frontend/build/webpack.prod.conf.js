@@ -5,6 +5,7 @@ var webpack = require('webpack')
 var merge = require('webpack-merge')
 var baseWebpackConfig = require('./webpack.base.conf')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
+var AssetsPlugin = require('assets-webpack-plugin')
 var env = config.build.env
 
 var webpackConfig = merge(baseWebpackConfig, {
@@ -27,6 +28,9 @@ var webpackConfig = merge(baseWebpackConfig, {
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
     new webpack.DefinePlugin({
       'process.env': env
+    }),
+    new AssetsPlugin({
+      prettyPrint: true, filename: 'webpack-assets.json'
     }),
     new webpack.optimize.UglifyJsPlugin({
       compress: {

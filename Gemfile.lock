@@ -123,8 +123,6 @@ GEM
       activemodel (>= 5.0)
       debug_inspector
       railties (>= 5.0)
-    webpacked (0.2.1)
-      rails (>= 3.2.0)
     websocket-driver (0.6.4)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
@@ -144,7 +142,6 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
   web-console
-  webpacked
 
 BUNDLED WITH
    1.13.6
