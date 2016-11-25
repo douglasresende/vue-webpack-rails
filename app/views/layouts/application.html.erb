@@ -4,10 +4,11 @@
     <title>RailsVueWebpack</title>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%#= stylesheet_link_tag    'application', media: 'all' %>
   </head>
 
   <body>
     <%= yield %>
   </body>
+  <%= javascript_include_tag 'http://localhost:3500/app.js' %>
 </html>
