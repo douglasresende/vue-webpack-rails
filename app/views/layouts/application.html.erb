@@ -3,13 +3,11 @@
   <head>
     <title>RailsVueWebpack</title>
     <%= csrf_meta_tags %>
-
-    <%#= stylesheet_link_tag    'application', media: 'all' %>
+    <%#= webpack_css_tag 'app', media: 'all' %>
   </head>
 
   <body>
     <%= yield %>
   </body>
-  <%#= javascript_include_tag 'http://localhost:3500/app.js' %>
-  <script async="async" src="<%= webpack_asset_url('app') %>"></script>
+  <%= webpack_js_tag('app') %>
 </html>
