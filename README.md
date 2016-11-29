@@ -36,3 +36,11 @@ bundle install
 bundle exec rails db:create
 foreman start
 ```
+
+## to do:
+
+* more helpers for the assets
+* the testing part
+  * the frontend ones, js, vue, etc
+  * the backend specs
+* write good documentation
