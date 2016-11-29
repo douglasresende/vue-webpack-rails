@@ -1,5 +1,8 @@
 # vue-webpack-rails
 
+Those who work with vue.js won't have to think on anything new.
+Those who work with rails just have to point his mind to the frontend directory,
+where the assets and frontend logic lives.
 A consistent wrapper for the following application stack:
 
 * Vue.js
