@@ -4,6 +4,7 @@
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     %title RailsVueWebpack
     = csrf_meta_tags
+    = webpack_css_tag('app')
   %body
     = yield
   = webpack_js_tag('app')
