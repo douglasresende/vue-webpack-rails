@@ -15,7 +15,13 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+\#*
 *~
+/ignore
+.env
+notas.txt
+/node_modules/*
 # Added by webpacked
 /node_modules
 /public/assets/webpacked

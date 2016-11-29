@@ -1,0 +1,11 @@
+AllCops:
+  Includes:
+    - Rakefile
+    - Capfile
+    - config.ru
+  Excludes:
+    - db/*
+    - config/**
+    - ignore/**
+Documentation:
+  Enabled: false

@@ -2,6 +2,7 @@ var path = require('path')
 var config = require('../config')
 var utils = require('./utils')
 var projectRoot = path.resolve(__dirname, '../')
+var stylesheetsRoot = path.resolve(__dirname, '../stylesheets/')
 
 var env = process.env.NODE_ENV
 // check env & config/index.js to decide weither to enable CSS Sourcemaps for the
@@ -12,7 +13,10 @@ var useCssSourceMap = cssSourceMapDev || cssSourceMapProd
 
 module.exports = {
   entry: {
-    app: './frontend/src/main.js'
+    app: [
+      'bootstrap-loader',
+      './frontend/src/main.js'
+    ]
   },
   output: {
     path: config.build.assetsRoot,
