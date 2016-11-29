@@ -28,9 +28,6 @@ extractStyles: true
 #   production:
 #     extractStyles: true
 
-# useCustomIconFontPath: true
-# $icon-font-path: ./frontend/src/fonts/font-awesome-4.7.0/scss/font-awesome.scss
-# $icon-font-name: FontAwesome
 
 # Customize Bootstrap variables that get imported before the original Bootstrap variables.
 # Thus, derived Bootstrap variables can depend on values from here.
