@@ -7,17 +7,17 @@ where the assets and frontend logic lives.
 
 A consistent wrapper for the following application stack:
 
-* Vue.js
+* Vue.js (v2)
   * based on the vue-cli webpack template
   * ES6 and single file components
-* Bootstrap
+* Bootstrap (v4)
   * based on the bootstrap-loader, but transpiling it through the vue-loader
   * disabled on the .bootstraprc, the jquery.
   * a minimal sass architecture is provided too
 * Webpack
   * all the advantages of the advanced asset bundler
   * based on the perfect configuration from the vue-cli webpack template.
-* Rails
+* Rails (v5)
   * the most consistent and robust web framework powering the backend.
   * it's not just api, but serializers are provided to do so too.
 * haml and pug
